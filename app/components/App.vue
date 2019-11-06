@@ -1,5 +1,10 @@
 <template>
-    <Label class="message" :text="msg" col="0" row="0"/>
+    <Page>
+        <ActionBar title="Welcome to NativeScript-Vue!"/>
+        <GridLayout columns="*" rows="*">
+            <Label class="message" :text="msg" col="0" row="0"/>
+        </GridLayout>
+    </Page>
 </template>
 
 <script lang="ts">
